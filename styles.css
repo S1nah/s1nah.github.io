@@ -1,0 +1,141 @@
+/* styles.css */
+
+  
+
+/* Allgemeine Styles */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c2d4e6;
+    position: relative;
+    overflow: hidden; 
+ }  
+
+
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  /* Header-Stil */
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: #fff;
+  }  
+  
+  /* Button-Stil */
+  /*
+  #loadFactBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }*/
+
+  
+  #loadFactBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50px; /* Hier setzen wir den Radius auf 50%, um den Button rund zu machen */
+    cursor: pointer;
+  }
+  
+  /* Hundefakten-Text-Stil */
+  #factText {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Hundebild-Stil */
+  #dogImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+
+/*
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#factContainer {
+    margin-top: 20px;
+}
+
+#factText {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#dogImage {
+    max-width: 100%;
+    height: auto;
+}
+
